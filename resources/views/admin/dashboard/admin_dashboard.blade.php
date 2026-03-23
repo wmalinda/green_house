@@ -59,6 +59,259 @@
     <div class="outer">
         <div class="inner bg-container">
 
+            <h3 class="effects_heading_top_align">Weekly summary report</h3>
+
+            <div class="row">
+                <div class="col-lg-3 col-12 m-t-25 md_align_section">
+                    <div class="card">
+                        <div class="card-header bg-white">
+                            Location 1
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="task-item">
+
+                                Danger
+                                <span class="float-right text-muted progress-info">3%</span>
+                                <div id="progress-bar">
+                                    <!--<progress class="progress progress-danger" value="52"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar"
+                                                style="width: 3%" aria-valuenow="3" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Worning
+                                <span class="float-right text-muted progress-primary">4%</span>
+                                <div id="progress-bar1">
+                                    <!--<progress class="progress progress-warning" value="80"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar"
+                                                style="width: 4%" aria-valuenow="4" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Confortable
+                                <span class="float-right text-muted progress-warning">85%</span>
+                                <div id="progress-bar21">
+                                    <!--<progress class="progress progress-success" value="25"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress" id="progress-bar2">
+                                        <div class="progress-bar bg-success" role="progressbar"
+                                                style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Ok
+                                <span class="float-right text-muted progress-primary">8%</span>
+                                <div id="progress-bar5">
+                                    <!--<progress class="progress progress-primary" value="93" max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar"
+                                                style="width: 8%" aria-valuenow="8" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-12 m-t-25 md_align_section">
+                    <div class="card">
+                        <div class="card-header bg-white">
+                            Location 2
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="task-item">
+
+                                Danger
+                                <span class="float-right text-muted progress-info">6%</span>
+                                <div id="progress-bar">
+                                    <!--<progress class="progress progress-danger" value="52"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar"
+                                                style="width: 6%" aria-valuenow="6" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Worning
+                                <span class="float-right text-muted progress-primary">12%</span>
+                                <div id="progress-bar1">
+                                    <!--<progress class="progress progress-warning" value="80"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar"
+                                                style="width: 12%" aria-valuenow="12" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Confortable
+                                <span class="float-right text-muted progress-warning">72%</span>
+                                <div id="progress-bar21">
+                                    <!--<progress class="progress progress-success" value="25"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress" id="progress-bar2">
+                                        <div class="progress-bar bg-success" role="progressbar"
+                                                style="width: 72%" aria-valuenow="872" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Ok
+                                <span class="float-right text-muted progress-primary">10%</span>
+                                <div id="progress-bar5">
+                                    <!--<progress class="progress progress-primary" value="93" max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar"
+                                                style="width: 8%" aria-valuenow="10" aria-valuemin="10"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-12 m-t-25 md_align_section">
+                    <div class="card">
+                        <div class="card-header bg-white">
+                            Location 3
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="task-item">
+
+                                Danger
+                                <span class="float-right text-muted progress-info">3%</span>
+                                <div id="progress-bar">
+                                    <!--<progress class="progress progress-danger" value="52"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar"
+                                                style="width: 3%" aria-valuenow="3" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Worning
+                                <span class="float-right text-muted progress-primary">4%</span>
+                                <div id="progress-bar1">
+                                    <!--<progress class="progress progress-warning" value="80"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar"
+                                                style="width: 4%" aria-valuenow="4" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Confortable
+                                <span class="float-right text-muted progress-warning">85%</span>
+                                <div id="progress-bar21">
+                                    <!--<progress class="progress progress-success" value="25"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress" id="progress-bar2">
+                                        <div class="progress-bar bg-success" role="progressbar"
+                                                style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Ok
+                                <span class="float-right text-muted progress-primary">8%</span>
+                                <div id="progress-bar5">
+                                    <!--<progress class="progress progress-primary" value="93" max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar"
+                                                style="width: 8%" aria-valuenow="8" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-12 m-t-25 md_align_section">
+                    <div class="card">
+                        <div class="card-header bg-white">
+                            Location 4
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="task-item">
+
+                                Danger
+                                <span class="float-right text-muted progress-info">3%</span>
+                                <div id="progress-bar">
+                                    <!--<progress class="progress progress-danger" value="52"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar"
+                                                style="width: 3%" aria-valuenow="3" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Worning
+                                <span class="float-right text-muted progress-primary">4%</span>
+                                <div id="progress-bar1">
+                                    <!--<progress class="progress progress-warning" value="80"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar"
+                                                style="width: 4%" aria-valuenow="4" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Confortable
+                                <span class="float-right text-muted progress-warning">85%</span>
+                                <div id="progress-bar21">
+                                    <!--<progress class="progress progress-success" value="25"-->
+                                    <!--max="100"></progress>-->
+                                    <div class="progress" id="progress-bar2">
+                                        <div class="progress-bar bg-success" role="progressbar"
+                                                style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="task-item">
+                                Ok
+                                <span class="float-right text-muted progress-primary">8%</span>
+                                <div id="progress-bar5">
+                                    <!--<progress class="progress progress-primary" value="93" max="100"></progress>-->
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar"
+                                                style="width: 8%" aria-valuenow="8" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="effects_heading_top_align mt-5">Daily summary report</h3>
             <div class="row">
                 <div class="col-lg-3 col-3">
                     <div class="bg-success m-t-35 header_align">
@@ -135,6 +388,7 @@
 
             </div>
             
+            <h3 class="effects_heading_top_align mt-5">Weather Forcasr</h3>
 
             <div class="row">
 
