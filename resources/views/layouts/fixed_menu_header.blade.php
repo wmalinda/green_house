@@ -191,10 +191,73 @@ z-index: 999999">
                 <!-- #menu -->
                 <ul id="menu" class="bg-blue dker">
                     <li class="{{isset($slug) && $slug == 'dashboard' ? 'active' : ''}}">
-                    <a href="{{ route('dashboard') }}">
-                        <i class="fa fa-home"></i>
-                        <span class="link-title menu_hide">&nbsp;&nbsp;Dashboard</span>
-                    </a>
+                        <a href="{{ route('dashboard') }}">
+                            <i class="fa fa-home"></i>
+                            <span class="link-title menu_hide">&nbsp;&nbsp;Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="">
+                                <a href="javascript:;">
+                                    <i class="fa fa-angle-right"></i>
+                                    &nbsp;Master Data
+                                    <span class="fa arrow"></span>
+                                </a>
+                        <ul class="sub-menu sub-submenu">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Customer
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Location
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp; Edge Divices
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Product
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Mesure Types
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                                <a href="javascript:;">
+                                    <i class="fa fa-angle-right"></i>
+                                    &nbsp;Reports
+                                    <span class="fa arrow"></span>
+                                </a>
+                        <ul class="sub-menu sub-submenu">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Report 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Report 2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Report 3
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Report 4
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
                 <!-- /#menu -->

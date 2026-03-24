@@ -59,7 +59,7 @@
     <div class="outer">
         <div class="inner bg-container">
 
-            <h3 class="effects_heading_top_align">Weekly summary report</h3>
+            <h3 class="effects_heading_top_align">Monthly summary report</h3>
 
             <div class="row">
                 <div class="col-lg-3 col-12 m-t-25 md_align_section">
@@ -409,11 +409,11 @@
                                                             </div>
                                                             <div class="col-6">
                                                                 <div class="weather-value">
-            <span class=" text-white"><span class="degree">25&deg;</span>
+            <span class=" text-white"><span class="degree">28&deg;</span>
             </span>
                                                                 </div>
                                                                 <div class="weather_location">
-                                                                    <span class="text-white"><i class="fa fa-map-marker"></i> London</span>
+                                                                    <span class="text-white"><i class="fa fa-map-marker"></i> Sri Lanka</span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -422,25 +422,25 @@
                                                                 <span>Mon</span>
                                                                 <br/>
                                                                 <img src="img/w1.png" alt="weather">
-                                                                <p>27&deg;</p>
+                                                                <p>29&deg;</p>
                                                             </div>
                                                             <div class="col-3">
                                                                 <span>Tue</span>
                                                                 <br/>
                                                                 <img src="img/w2.png" alt="weather">
-                                                                <p>23&deg;</p>
+                                                                <p>28&deg;</p>
                                                             </div>
                                                             <div class="col-3">
                                                                 <span>Wed</span>
                                                                 <br/>
                                                                 <img src="img/w3.png" alt="weather">
-                                                                <p>19&deg;</p>
+                                                                <p>28&deg;</p>
                                                             </div>
                                                             <div class="col-3">
                                                                 <span>Thu</span>
                                                                 <br/>
                                                                 <img src="img/w4.png" alt="weather">
-                                                                <p>38&deg;</p>
+                                                                <p>27&deg;</p>
                                                             </div>
                                                         </div>
                                                     </div>
