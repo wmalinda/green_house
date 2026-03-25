@@ -11,35 +11,31 @@ $(document).ready(function () {
     }
 
     var sales = [
-        [0, 10],
-        [2.5, 23],
-        [5, 15],
-        [7.5, 25],
-        [8.5, 28],
-        [9.5, 25],
-        [11, 15],
-        [13.5, 20],
-        [16, 10]
+        [0, 2],
+        [1, 4],
+        [2, 5],
+        [3, 8],
+        [4, 13],
+        [5, 20],
+        [6, 25],
     ];
     var profit = [
-        [0, 20],
-        [2, 12],
-        [5, 22],
-        [7.5, 13],
-        // [4, 20],
-        [10.5, 25],
-        [12.5, 12],
-        [15, 22],
-        [16, 15]
+        [0, 1],
+        [1, 3],
+        [2, 6],
+        [3, 8],
+        [4, 11],
+        [5, 15],
+        [6, 22],
     ];
     var basicflot= $("#basicflot");
     var plot = $.plot(basicflot, [{
         data: sales,
-        label: "Sales",
-        color: "#00c0ef"
+        label: "Green Chilli",
+        color: "#00ef48"
     }, {
         data: profit,
-        label: "Profit",
+        label: "Red Chilli",
         color: "#ff8080",
         opacity: "1"
     }], {
@@ -71,7 +67,7 @@ $(document).ready(function () {
             labelMargin: 5,
             backgroundColor: '#fff'
         },
-        colors: ["#00c0ef", "#ff8080"],
+        colors: ["#00ef48", "#ff8080"],
         xaxis: {},
         yaxis: {
             ticks: 4
@@ -126,13 +122,13 @@ $(document).ready(function () {
     ];
 
     data = [{
-        label: "Total visitors",
+        label: "Green Chilli",
         data: d1,
-        color: "#0fb0c0"
+        color: "#00ef48"
     }, {
-        label: "Total Sales",
+        label: "Red Chilli",
         data: d2,
-        color: "#ffb300"
+        color: "#ff8080"
     }];
 
     Options = {
@@ -276,25 +272,21 @@ $(document).ready(function () {
 //end bar chart stack
 //donut
     var datax = [{
-        label: "Profile",
+        label: "GH-1(Gall)",
         data: 150,
-        color: '#00c0ef'
+        color: '#dfef00'
     }, {
-        label: "Facebook ",
+        label: "GH-2(Kandy)",
         data: 130,
-        color: '#0fb0c0'
+        color: '#0fc04a'
     }, {
-        label: "Twitter ",
+        label: "GH-3(Matale)",
         data: 190,
         color: '#0fb0c0'
     }, {
-        label: "Google+",
+        label: "GH-4(Chelow)",
         data: 180,
         color: '#ff8080'
-    }, {
-        label: "Linkedin",
-        data: 120,
-        color: '#ffb300'
     }];
 
     $.plot($("#donut"), datax, {

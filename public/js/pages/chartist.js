@@ -272,11 +272,11 @@ $(document).ready(function(){
 
     // Multi line labels
     var data6 = {
-        labels: ['First quarter of the year', 'Second quarter of the year', 'Third quarter of the year', 'Fourth quarter of the year'],
+        labels: ['GH-1(Gall)', 'GH-2(Kandy)', 'GH-3(Matale)', 'GH-4(Chelow)'],
         series: [
-            [60000, 40000, 80000, 70000],
-            [40000, 30000, 70000, 65000],
-            [8000, 3000, 10000, 6000]
+            [6000, 4000, 8000, 7000],
+            [4000, 3000, 7000, 6500],
+            [800, 300, 1000, 600]
         ]
     };
     var options6 = {
@@ -287,7 +287,7 @@ $(document).ready(function(){
         axisY: {
             offset: 80,
             labelInterpolationFnc: function(value) {
-                return value + ' CHF'
+                return value + ' KG'
             },
             scaleMinSpace: 30
         }

@@ -389,10 +389,55 @@
             <div class="outer">
                 <div class="inner bg-container">
                     <div class="row">
+                        <div class="col-lg-6 m-t-35">
+                            <div class="card">
+                                <div class="card-header bg-white text-black">
+                                    Location-Wise Manufacturing
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div id="donut" class="flotChart2"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="card m-t-35">
+                                <div class="card-header bg-white">
+                                    Location-Wise Breakdown
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div class="ct-chart ct-perfect-fourth" id="multi_line"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="col-lg-7">
+                            <div class="card m-t-35">
+                                <div class="card-header bg-white text-black">
+                                    Pie Charts
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="demo-container">
+                                                <div id="placeholdertranslabel" class="flotChart1"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div id="placeholdertiltedpie" class="flotChart1"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="row">
                         <div class="col-lg">
                             <div class="card m-t-35">
                                 <div class="card-header bg-white text-black">
-                                    Spline Line Chart
+                                    Monthly Growth summary
                                 </div>
                                 <div class="card-body m-t-35">
                                     <div id="basicFlotLegend1" class="flotLegend"></div>
@@ -404,7 +449,7 @@
                         <div class="col-lg m-t-35">
                             <div class="card">
                                 <div class="card-header bg-white text-black">
-                                    Line Chart
+                                    Monthly-Wise Manufacturing(2025)
                                 </div>
                                 <div class="card-body m-t-35">
                                     <div id="basicFlotLegend" class="flotLegend"></div>
@@ -415,7 +460,7 @@
                     </div>
 
                     <!-- row -->
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-lg m-t-35">
                             <div class="card">
                                 <div class="card-header bg-white text-black">
@@ -460,43 +505,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-5 m-t-35">
-                            <div class="card">
-                                <div class="card-header bg-white text-black">
-                                    Donut Charts
-                                </div>
-                                <div class="card-body m-t-35">
-                                    <div id="donut" class="flotChart2"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="card m-t-35">
-                                <div class="card-header bg-white text-black">
-                                    Pie Charts
-                                </div>
-                                <div class="card-body m-t-35">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="demo-container">
-                                                <div id="placeholdertranslabel" class="flotChart1"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div id="placeholdertiltedpie" class="flotChart1"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
+                    
                 </div>
                 <!-- /.inner -->
             </div>
 
-            <div class="outer">
+            <!-- <div class="outer">
                 <div class="inner bg-container">
                     <div class="row">
                         <div class="col-lg-6">
@@ -562,7 +577,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- <h3 class="effects_heading_top_align mt-5">Daily summary report</h3>
             <div class="row">
                 <div class="col-lg-3 col-3">
