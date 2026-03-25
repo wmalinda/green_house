@@ -59,13 +59,87 @@
     <div class="outer">
         <div class="inner bg-container">
 
+        <h3 class="effects_heading_top_align mt-5">Weather Forcasr</h3>
+
+            <div class="row">
+
+                <div class="col-12 stat_align">
+                    <div class="card weather_section md_align_section">
+                        <div class="card-body">
+                            <div class="row margin_align">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="icon sun-shower">
+                                                <div class="cloud"></div>
+                                                <div class="sun">
+                                                    <div class="rays"></div>
+                                                </div>
+                                                <div class="rain"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="weather-value">
+                                                <span class=" text-white"><span class="degree">28&deg;</span>
+                                                </span>
+                                            </div>
+                                            <div class="weather_location">
+                                                <span class="text-white"><i class="fa fa-map-marker"></i> Sri Lanka</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row weekly_report">
+                                        <div class="col-2">
+                                            <span>Mon</span>
+                                            <br/>
+                                            <!-- <img src="img/w1.png" alt="weather"> -->
+                                            <p>29&deg;</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>Tue</span>
+                                            <br/>
+                                            <!-- <img src="img/w2.png" alt="weather"> -->
+                                            <p>28&deg;</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>Wed</span>
+                                            <br/>
+                                            <!-- <img src="img/w3.png" alt="weather"> -->
+                                            <p>28&deg;</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>Thu</span>
+                                            <br/>
+                                            <!-- <img src="img/w4.png" alt="weather"> -->
+                                            <p>27&deg;</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>Fri</span>
+                                            <br/>
+                                            <!-- <img src="img/w4.png" alt="weather"> -->
+                                            <p>27&deg;</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>Sat</span>
+                                            <br/>
+                                            <!-- <img src="img/w4.png" alt="weather"> -->
+                                            <p>27&deg;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <h3 class="effects_heading_top_align">Monthly summary report</h3>
 
             <div class="row">
                 <div class="col-lg-3 col-12 m-t-25 md_align_section">
                     <div class="card">
                         <div class="card-header bg-white">
-                            Location 1
+                            GH-1(Gall)
                         </div>
                         <div class="card-body p-0">
                             <div class="task-item">
@@ -127,7 +201,7 @@
                 <div class="col-lg-3 col-12 m-t-25 md_align_section">
                     <div class="card">
                         <div class="card-header bg-white">
-                            Location 2
+                            GH-2(Kandy)
                         </div>
                         <div class="card-body p-0">
                             <div class="task-item">
@@ -189,7 +263,7 @@
                 <div class="col-lg-3 col-12 m-t-25 md_align_section">
                     <div class="card">
                         <div class="card-header bg-white">
-                            Location 3
+                            GH-3(Matale)
                         </div>
                         <div class="card-body p-0">
                             <div class="task-item">
@@ -251,7 +325,7 @@
                 <div class="col-lg-3 col-12 m-t-25 md_align_section">
                     <div class="card">
                         <div class="card-header bg-white">
-                            Location 4
+                            GH-4(Chelow)
                         </div>
                         <div class="card-body p-0">
                             <div class="task-item">
@@ -311,7 +385,185 @@
                 </div>
             </div>
 
-            <h3 class="effects_heading_top_align mt-5">Daily summary report</h3>
+            <h3 class="effects_heading_top_align mt-5">Reports</h3>
+            <div class="outer">
+                <div class="inner bg-container">
+                    <div class="row">
+                        <div class="col-lg">
+                            <div class="card m-t-35">
+                                <div class="card-header bg-white text-black">
+                                    Spline Line Chart
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div id="basicFlotLegend1" class="flotLegend"></div>
+                                    <div id="basicflot" class="flotChart"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg m-t-35">
+                            <div class="card">
+                                <div class="card-header bg-white text-black">
+                                    Line Chart
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div id="basicFlotLegend" class="flotLegend"></div>
+                                    <div id="line-chart" class="flotChart1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- row -->
+                    <div class="row">
+                        <div class="col-lg m-t-35">
+                            <div class="card">
+                                <div class="card-header bg-white text-black">
+                                    Bar Charts
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div id="basicFlotLegend2" class="flotLegend"></div>
+                                    <div id="bar-chart" class="flotChart1"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg m-t-35">
+                            <div class="card">
+                                <div class="card-header bg-white text-black">
+                                    Stacked Bar Charts
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div id="basicFlotLegend3" class="flotLegend"></div>
+                                    <div id="bar-chart-stacked" class="flotChart1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg m-t-35">
+                            <div class="card">
+                                <div class="card-header bg-white text-black">
+                                    Area Chart
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div id="area-chart" class="flotChart3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="card m-t-35">
+                                <div class="card-header bg-white text-black">
+                                    Spline Area Chart
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div id="chart-spline" class="flotChart3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 m-t-35">
+                            <div class="card">
+                                <div class="card-header bg-white text-black">
+                                    Donut Charts
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div id="donut" class="flotChart2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="card m-t-35">
+                                <div class="card-header bg-white text-black">
+                                    Pie Charts
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="demo-container">
+                                                <div id="placeholdertranslabel" class="flotChart1"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div id="placeholdertiltedpie" class="flotChart1"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.inner -->
+            </div>
+
+            <div class="outer">
+                <div class="inner bg-container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    Donut with Animation
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div class="ct-chart ct-perfect-fourth" id="animated_chart"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card md_top_align">
+                                <div class="card-header bg-white">
+                                    Stacked Bar Chart
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div class="ct-chart ct-perfect-fourth" id="stacked_chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card m-t-35">
+                                <div class="card-header bg-white">
+                                    Peak circles Bi-Polar Bar Chart
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div class="ct-chart ct-perfect-fourth" id="draw_events"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card m-t-35">
+                                <div class="card-header bg-white">
+                                    Smil Animation
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div class="ct-chart ct-perfect-fourth" id="smil_animation"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card m-t-35">
+                                <div class="card-header bg-white">
+                                    Path Animation
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div class="ct-chart ct-perfect-fourth" id="path_animation"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card m-t-35">
+                                <div class="card-header bg-white">
+                                    Multi Line Labels
+                                </div>
+                                <div class="card-body m-t-35">
+                                    <div class="ct-chart ct-perfect-fourth" id="multi_line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <h3 class="effects_heading_top_align mt-5">Daily summary report</h3>
             <div class="row">
                 <div class="col-lg-3 col-3">
                     <div class="bg-success m-t-35 header_align">
@@ -386,69 +638,9 @@
                 </div>
 
 
-            </div>
+            </div> -->
             
-            <h3 class="effects_heading_top_align mt-5">Weather Forcasr</h3>
-
-            <div class="row">
-
-                    <div class="col-12 stat_align">
-                                        <div class="card weather_section md_align_section">
-                                            <div class="card-body">
-                                                <div class="row margin_align">
-                                                    <div class="col-12">
-                                                        <div class="row">
-                                                            <div class="col-6">
-                                                                <div class="icon sun-shower">
-                                                                    <div class="cloud"></div>
-                                                                    <div class="sun">
-                                                                        <div class="rays"></div>
-                                                                    </div>
-                                                                    <div class="rain"></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-6">
-                                                                <div class="weather-value">
-            <span class=" text-white"><span class="degree">28&deg;</span>
-            </span>
-                                                                </div>
-                                                                <div class="weather_location">
-                                                                    <span class="text-white"><i class="fa fa-map-marker"></i> Sri Lanka</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row weekly_report">
-                                                            <div class="col-3">
-                                                                <span>Mon</span>
-                                                                <br/>
-                                                                <img src="img/w1.png" alt="weather">
-                                                                <p>29&deg;</p>
-                                                            </div>
-                                                            <div class="col-3">
-                                                                <span>Tue</span>
-                                                                <br/>
-                                                                <img src="img/w2.png" alt="weather">
-                                                                <p>28&deg;</p>
-                                                            </div>
-                                                            <div class="col-3">
-                                                                <span>Wed</span>
-                                                                <br/>
-                                                                <img src="img/w3.png" alt="weather">
-                                                                <p>28&deg;</p>
-                                                            </div>
-                                                            <div class="col-3">
-                                                                <span>Thu</span>
-                                                                <br/>
-                                                                <img src="img/w4.png" alt="weather">
-                                                                <p>27&deg;</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+            
 
                                 
 
@@ -600,107 +792,21 @@
     <script src="{{asset('vendors/moment/js/moment.min.js')}}"></script>
     <script src="{{asset('vendors/daterangepicker/js/daterangepicker.js')}}"></script>
     <script src="{{asset('vendors/datepicker/js/bootstrap-datepicker.min.js')}}"></script>
+    <script src="{{asset('js/components.js')}}"></script>
+    <script src="{{asset('js/custom.js')}}"></script>
+    <script src="{{asset('vendors/flotchart/js/jquery.flot.js')}}"></script>
+    <script src="{{asset('vendors/flotchart/js/jquery.flot.resize.js')}}"></script>
+    <script src="{{asset('vendors/flotchart/js/jquery.flot.stack.js')}}"></script>
+    <script src="{{asset('vendors/flotchart/js/jquery.flot.time.js')}}"></script>
+    <script src="{{asset('vendors/flotspline/js/jquery.flot.spline.min.js')}}"></script>
+    <script src="{{asset('vendors/flotchart/js/jquery.flot.categories.js')}}"></script>
+    <script src="{{asset('vendors/flotchart/js/jquery.flot.pie.js')}}"></script>
+    <script src="{{asset('vendors/flot.tooltip/js/jquery.flot.tooltip.min.js')}}"></script>
+    <script src="js/pages/flot_charts.js"></script>
+    <script src="{{asset('vendors/chartist/js/chartist.min.js')}}"></script>
+    <script src="{{asset('js/pages/chartist.js')}}"></script>
+
     <script type="text/javascript">
-        // $(document).ready(function () {
-        //     $('.make-switch-radio').bootstrapSwitch({
-        //         onText: $(this).data('onText'),
-        //         offText: $(this).data('offText'),
-        //         onColor: $(this).data('onColor'),
-        //         offColor: $(this).data('offColor'),
-        //         size: $(this).data('size'),
-        //         labelText: $(this).data('labelText'),
-        //         onSwitchChange: function (event, state){
-        //             if(state != false){
-        //                 $("#Reportvalues").hide();
-        //             }else{
-        //                 $("#Reportvalues").show();
-        //             }
-        //         }
-        //     });
-            
-        //     function cb(start, end) {
-        //         console.log(start, end);
-        //         // $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
-        //     }
-            
-        //     cb(moment().subtract(29, 'days'), moment());
-
-        //     $('#reportrange').daterangepicker({
-        //         startDate: moment().startOf('month'),
-        //         endDate: moment().endOf('month'),
-        //         ranges: {
-        //             'Today': [moment(), moment()],
-        //             'Yesterday': [moment().subtract(1, 'days'), moment()],
-        //             'Last 7 Days': [moment().subtract(6, 'days'), moment()],
-        //             'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-        //             'This Month': [moment().startOf('month'), moment().endOf('month')],
-        //             'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
-        //         }
-        //     }, cb);
-        // })
-
-        // var config = `
-        // function selectDate(date) {
-        //     $('#calendar-wrapper').updateCalendarOptions({
-        //         date: date
-        //     });
-        //     console.log(calendar.getSelectedDate());
-        // }
-
-        // var defaultConfig = {
-        //     weekDayLength: 1,
-        //     date: new Date(),
-        //     onClickDate: selectDate,
-        //     showYearDropdown: true,
-        //     startOnMonday: true,
-        // };
-
-        // var calendar = $('#calendar-wrapper').calendar(defaultConfig);
-        // console.log(calendar.getSelectedDate());
-        // `;
-
-        // eval(config);
-        // const flask = new CodeFlask('#editor', { 
-        //     language: 'js', 
-        //     lineNumbers: true 
-        // });
-        // flask.updateCode(config);
-        // flask.onUpdate((code) => {
-        //     try {
-        //         eval(code);
-        //     } catch(e) {
-
-        //     }
-        // });
-
-        // function generateReport(){
-        //     var reportrange = $("#reportrange").val();
-        //     if(reportrange != ''){
-        //         $.ajaxSetup({
-        //             headers: {
-        //                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        //             }
-        //         });
-
-        //         $.ajax({
-        //             url: baseURL+'generate-report-by-date-range',
-        //             type: "POST",
-        //             data: {
-        //             'reportrange':reportrange
-        //             },
-        //             success: function(data){
-        //                 $("#sales_count").html(Number(data.totalSaleInDateRange).toFixed(2));
-        //                 $("#paid_count").html(Number(data.totalPurchaseInDateRange).toFixed(2));
-        //                 $("#due_count").html(Number(data.totalSaleInDateRange - data.totalPurchaseInDateRange).toFixed(2));
-        //                 $("#chq_in_count").html(Number(data.chq_in).toFixed(2));
-
-
-        //             },
-        //             error: function(err) {
-                        
-        //             }
-        //         });
-        //     }
-        // }
+        
     </script>
 @stop

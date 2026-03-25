@@ -196,6 +196,82 @@ z-index: 999999">
                             <span class="link-title menu_hide">&nbsp;&nbsp;Dashboard</span>
                         </a>
                     </li>
+                    
+                    <li class="">
+                                <a href="javascript:;">
+                                    <i class="fa fa-angle-right"></i>
+                                    &nbsp;Reports
+                                    <span class="fa arrow"></span>
+                                </a>
+                        <ul class="sub-menu sub-submenu">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Future Yield Forecasting Report
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Growth Rate Monitoring Report
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Fruit Maturity and Tally Report
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Microclimate Prediction Report
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Actuator Operation Efficiency Report
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Optimal Climate Strategy Report
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Resource Consumption Report
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Energy Consumption Optimization Report
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;Pest Infestation Alert Report
+                                </a>
+                            </li>
+                            <!-- <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i> &nbsp;
+                                </a>
+                            </li> -->
+                        </ul>
+                    </li>
+
                     <li class="">
                                 <a href="javascript:;">
                                     <i class="fa fa-angle-right"></i>
@@ -226,35 +302,6 @@ z-index: 999999">
                             <li>
                                 <a href="#">
                                     <i class="fa fa-angle-right"></i> &nbsp;Mesure Types
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="">
-                                <a href="javascript:;">
-                                    <i class="fa fa-angle-right"></i>
-                                    &nbsp;Reports
-                                    <span class="fa arrow"></span>
-                                </a>
-                        <ul class="sub-menu sub-submenu">
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-angle-right"></i> &nbsp;Report 1
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-angle-right"></i> &nbsp;Report 2
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-angle-right"></i> &nbsp;Report 3
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-angle-right"></i> &nbsp;Report 4
                                 </a>
                             </li>
                         </ul>
