@@ -139,7 +139,7 @@
                 <div class="col-lg-3 col-12 m-t-25 md_align_section">
                     <div class="card">
                         <div class="card-header bg-white">
-                            GH-1(Gall)
+                            GH-1(Galle)
                         </div>
                         <div class="card-body p-0">
                             <div class="task-item">
@@ -157,7 +157,7 @@
                                 </div>
                             </div>
                             <div class="task-item">
-                                Worning
+                                Warning
                                 <span class="float-right text-muted progress-primary">4%</span>
                                 <div id="progress-bar1">
                                     <!--<progress class="progress progress-warning" value="80"-->
@@ -170,7 +170,7 @@
                                 </div>
                             </div>
                             <div class="task-item">
-                                Confortable
+                                Comfortable
                                 <span class="float-right text-muted progress-warning">85%</span>
                                 <div id="progress-bar21">
                                     <!--<progress class="progress progress-success" value="25"-->
@@ -219,7 +219,7 @@
                                 </div>
                             </div>
                             <div class="task-item">
-                                Worning
+                                Warning
                                 <span class="float-right text-muted progress-primary">12%</span>
                                 <div id="progress-bar1">
                                     <!--<progress class="progress progress-warning" value="80"-->
@@ -232,7 +232,7 @@
                                 </div>
                             </div>
                             <div class="task-item">
-                                Confortable
+                                Comfortable
                                 <span class="float-right text-muted progress-warning">72%</span>
                                 <div id="progress-bar21">
                                     <!--<progress class="progress progress-success" value="25"-->
@@ -281,7 +281,7 @@
                                 </div>
                             </div>
                             <div class="task-item">
-                                Worning
+                                Warning
                                 <span class="float-right text-muted progress-primary">4%</span>
                                 <div id="progress-bar1">
                                     <!--<progress class="progress progress-warning" value="80"-->
@@ -294,7 +294,7 @@
                                 </div>
                             </div>
                             <div class="task-item">
-                                Confortable
+                                Comfortable
                                 <span class="float-right text-muted progress-warning">85%</span>
                                 <div id="progress-bar21">
                                     <!--<progress class="progress progress-success" value="25"-->
@@ -325,7 +325,7 @@
                 <div class="col-lg-3 col-12 m-t-25 md_align_section">
                     <div class="card">
                         <div class="card-header bg-white">
-                            GH-4(Chelow)
+                            GH-4(Chillaw)
                         </div>
                         <div class="card-body p-0">
                             <div class="task-item">
@@ -343,7 +343,7 @@
                                 </div>
                             </div>
                             <div class="task-item">
-                                Worning
+                                Warning
                                 <span class="float-right text-muted progress-primary">4%</span>
                                 <div id="progress-bar1">
                                     <!--<progress class="progress progress-warning" value="80"-->
@@ -356,7 +356,7 @@
                                 </div>
                             </div>
                             <div class="task-item">
-                                Confortable
+                                Comfortable
                                 <span class="float-right text-muted progress-warning">85%</span>
                                 <div id="progress-bar21">
                                     <!--<progress class="progress progress-success" value="25"-->
@@ -403,7 +403,7 @@
                         <div class="col-lg-6">
                             <div class="card m-t-35">
                                 <div class="card-header bg-white">
-                                    Location-Wise Breakdown
+                                    Location-Wise Manufacturing Breakdown
                                 </div>
                                 <div class="card-body m-t-35">
                                     <div class="ct-chart ct-perfect-fourth" id="multi_line"></div>
@@ -449,7 +449,7 @@
                         <div class="col-lg m-t-35">
                             <div class="card">
                                 <div class="card-header bg-white text-black">
-                                    Monthly-Wise Manufacturing(2025)
+                                    Monthly Manufacturing summary(2025)
                                 </div>
                                 <div class="card-body m-t-35">
                                     <div id="basicFlotLegend" class="flotLegend"></div>

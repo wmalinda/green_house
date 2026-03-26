@@ -45,7 +45,7 @@ z-index: 999999">
                             <span class="text-white"> <br/>Log In</span>
                         </h3>
                     </div>
-                    <div class="bg-white login_content login_border_radius">
+                    <div class="bg-white login_content login_border_radius" style="padding: 25px;">
                         <form  action="{{ route('login') }}" id="login_validator" method="post" class="login_validator">
                             {{csrf_field()}}
                             <div class="form-group">

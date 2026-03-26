@@ -1105,8 +1105,8 @@ z-index: 999999">
 </div>
 
 <!-- global scripts-->
-<script type="text/javascript" src="{{asset('js/components.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/custom.js')}}"></script>
+<!-- <script type="text/javascript" src="{{asset('js/components.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/custom.js')}}"></script> -->
 <!-- end of global scripts-->
 <!-- page level js -->
 @yield('footer_scripts')

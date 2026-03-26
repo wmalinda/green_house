@@ -272,7 +272,7 @@ $(document).ready(function(){
 
     // Multi line labels
     var data6 = {
-        labels: ['GH-1(Gall)', 'GH-2(Kandy)', 'GH-3(Matale)', 'GH-4(Chelow)'],
+        labels: ['GH-1(Galle)', 'GH-2(Kandy)', 'GH-3(Matale)', 'GH-4(Chillaw)'],
         series: [
             [6000, 4000, 8000, 7000],
             [4000, 3000, 7000, 6500],

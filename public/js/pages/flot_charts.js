@@ -272,7 +272,7 @@ $(document).ready(function () {
 //end bar chart stack
 //donut
     var datax = [{
-        label: "GH-1(Gall)",
+        label: "GH-1(Galle)",
         data: 150,
         color: '#dfef00'
     }, {
@@ -284,7 +284,7 @@ $(document).ready(function () {
         data: 190,
         color: '#0fb0c0'
     }, {
-        label: "GH-4(Chelow)",
+        label: "GH-4(Chillaw)",
         data: 180,
         color: '#ff8080'
     }];

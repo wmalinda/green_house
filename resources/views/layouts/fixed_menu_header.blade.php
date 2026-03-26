@@ -210,7 +210,7 @@ z-index: 999999">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="{{ route('report-growth-rate-monitoring-report') }}">
                                     <i class="fa fa-angle-right"></i> &nbsp;Growth Rate Monitoring Report
                                 </a>
                             </li>
@@ -280,7 +280,7 @@ z-index: 999999">
                                 </a>
                         <ul class="sub-menu sub-submenu">
                             <li>
-                                <a href="#">
+                                <a href="{{ route('customer-list') }}">
                                     <i class="fa fa-angle-right"></i> &nbsp;Customer
                                 </a>
                             </li>
@@ -363,8 +363,8 @@ z-index: 999999">
     var baseURL = '{{env('BASE_URL')}}';
 </script>
 
-<script type="text/javascript" src="{{asset('js/components.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/custom.js')}}"></script>
+<!-- <script type="text/javascript" src="{{asset('js/components.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/custom.js')}}"></script> -->
 <script type="text/javascript" src="{{asset('js/pages/fixed_menu.js')}}"></script>
 
 <!-- <script src="{{asset('vendors/raphael/js/raphael.min.js')}}"></script>

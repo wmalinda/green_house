@@ -46,6 +46,16 @@ Route::middleware('auth:web')->group(function () {
     Route::get('/', 'App\Http\Controllers\Admin\DashboardController@dashboard')->name('dashboard');
     Route::get('/dashboard', 'App\Http\Controllers\Admin\DashboardController@dashboard')->name('dashboard');
 
+    Route::get('/customer/list', 'App\Http\Controllers\Admin\CustomerController@index')->name('customer-list');
+    Route::post('/customer/data', 'App\Http\Controllers\Admin\CustomerController@data')->name('customer-data');
+    Route::get('/customer/create', 'App\Http\Controllers\Admin\CustomerController@create')->name('customer-create');
+    Route::post('/customer/store', 'App\Http\Controllers\Admin\CustomerController@store')->name('customer-store');
+    Route::get('/customer/{id}/edit', 'App\Http\Controllers\Admin\CustomerController@edit')->name('customer-edit');
+    Route::post('/customer/{id}/update', 'App\Http\Controllers\Admin\CustomerController@update')->name('customer-update');
+
+    Route::get('/report/growth_rate_monitoring_report', 'App\Http\Controllers\Admin\GrowthRateMonitoringReportController@index')->name('report-growth-rate-monitoring-report');
+    
+
 
 });
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
